@@ -8,8 +8,9 @@ import (
 
 func main() {
 	fmt.Println("----------hellow")
+	myDataBase.InitDB()
 	webserver.Init()
-	// myDataBase.InitDB()
+
 	// search()
 }
 func search() {

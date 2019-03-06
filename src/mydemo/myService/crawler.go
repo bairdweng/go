@@ -1,6 +1,11 @@
 package myService
 
+import (
+	"github.com/gocolly/colly"
+)
+
 //爬虫。
 func CrawlerStar() {
-	// c := colly.NewCollector()
+	c := colly.NewCollector()
+	print(c)
 }

@@ -14,6 +14,7 @@ func InitDataBaseWithDataBase(dataBaseName string) {
 	}
 	db.SingularTable(true)
 	println("数据库连接成功", dataBaseName)
+	db.LogMode(true)
 	Gdb = db
 	// defer db.Close()
 }

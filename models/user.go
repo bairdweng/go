@@ -8,4 +8,5 @@ type Users struct {
 	Gender     int
 	BirthDay   string
 	CreateTime string
+	UpdateTime string
 }
